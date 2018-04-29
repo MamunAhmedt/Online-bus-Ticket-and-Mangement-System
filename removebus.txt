@@ -1,0 +1,32 @@
+<?php
+$busid=$_POST['busid'];
+$source=$_POST['source'];
+$destination=$_POST['destination'];
+$regno=$_POST['regno'];
+$driver=$_POST['driver'];
+$supervizer=$_POST['supervizer'];
+$phone=$_POST['phone'];
+$routeid=$_POST['routeid'];
+
+$conn = mysqli_connect("localhost", "root", "", "record1");
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+if(isset($_POST['busid']) && isset($_POST['source']) && isset($_POST['destination']) && isset($_POST['regno'])
+	&& isset($_POST['driver']) && isset($_POST['supervizer']) && isset($_POST['supervizer'])){
+	$sql = "INSERT INTO businfo 
+	VALUES ('$busid','$source','$destination','$regno','$driver','$supervizer','$phone')";
+	if (mysqli_query($conn, $sql)) {
+		echo "New records inserted successfully";
+	} else {
+		echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+	}
+}
+else{
+	echo "parameter(s) missing";
+}
+mysqli_close($conn);
+
+?>

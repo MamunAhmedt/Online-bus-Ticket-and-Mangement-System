@@ -1,0 +1,9 @@
+Customer name: Mamun
+Departer station: Dhaka
+Arrival  station: chitagong
+Bus Reg no: Dhaka KA-2
+Driver Name: Rofiq
+Supervizer Name: Jobbar
+Phone Number: 01716849632
+Date of journey: 2016-12-31
+Ticket price: 1000

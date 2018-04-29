@@ -1,0 +1,49 @@
+<script type="text/javascript">
+function back(){
+	window.location="UserPanel.php"
+}
+
+
+function buyticket(){
+	
+	window.location="buyticket.php";
+	
+}
+function search(){
+	
+	window.location="search.php";
+	
+}
+
+function back(){
+	window.location="UserPanel.php"
+}
+
+</script>
+
+
+<body style="background-color:BLACK">
+<div style="font-size:20px;color:red;margin:20px 500px">ABC Bus Service</div>
+<br>
+</body>
+
+<form>
+<input type="button" value="Search Bus" style=" margin:0px 50px;width:200px;height:50px;cursor:pointer" onclick="search()">
+<input type="button" value="buy Tickets" style="margin:0px 50px;width:200px;height:50px;cursor:pointer" onclick="buyticket()">
+<input type="button" value="print ticket" style="margin:0px 50px;width:200px;height:50px;cursor:pointer" onclick="printticket()">
+<input type="button" value="Feedback" style="margin:0px 50px;width:200px;height:50px;cursor:pointer">
+
+</form>
+<form> <pre>
+
+
+       <span style="font-size:20px;color:green;margin:0px 200px">Bus id: </span>         <input type="text" name="source" style="background-color:gold;margin:0px -150px">
+	   
+       <span style="font-size:20px;color:green;margin:0px 200px">Seat number :</span> <input type="text" name="source"  style="background-color:gold;margin:0px -150px">
+	   
+       <span style="font-size:20px;color:green;margin:0px 200px">Journey Date: <input type="date" name="bday" style="background-color:gold;margin:0px 45px"> 
+	   
+	   <input type="button" value="Search" style="height:30px; width:90px;cursor:pointer;background-color:green;margin:0px 320px" onclick="search()">  <input type="button" value="cancel" style="height:30px; width:90px;cursor:pointer;background-color:red;margin:0px -300px" onclick="back()">
+	   
+</pre>
+</form>

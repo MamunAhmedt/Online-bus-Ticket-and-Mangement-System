@@ -1,0 +1,9 @@
+Customer name: Mamun
+Departer station: 
+Arrival  station: 
+Bus Reg no: 
+Driver Name: 
+Supervizer Name: 
+Phone Number: 
+Date of journey: 
+Ticket price: 

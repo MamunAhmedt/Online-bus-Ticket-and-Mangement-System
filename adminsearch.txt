@@ -1,0 +1,52 @@
+<script type="text/javascript">
+function add/removebus(){
+window.location="add/removebus.php";
+
+}
+function add/removeroute(){
+window.location="add/removeroute.php";
+
+}
+function changebusinfo(){
+window.location="changebusinfo.php";
+
+}
+
+function search(){
+window.location="adminsearch.php"
+}
+
+
+
+</script>
+
+
+
+</script>
+<body style="background-color:BLACK">
+<div style="font-size:20px;color:red;margin:20px 500px">ABC Bus Service</div>
+<br>
+</body>
+
+<form >
+<input type="button" value="Add/Remove Bus" style=" margin:20px 70px;width:200px;height:50px;cursor:pointer " onclick="add/removebus()" >
+<input type="button" value="Change Bus Info" style="margin:0px 70px;width:200px;height:50px;cursor:pointer" onclick="changebusinfo()">
+<input type="button" value="Search Bus" style="margin:0px 70px;width:200px;height:50px;cursor:pointer" onclick="search()">
+<input type="button" value="Add/Remove Route" style="margin:0px 50px;width:200px;height:50px;cursor:pointer" onclick="add/removeroute">
+</form>
+<form> <pre>
+
+
+       <span style="font-size:20px;color:green">Source: </span>         <input type="text" name="source" style="background-color:gold">
+	   
+       <span style="font-size:20px;color:green">Destination :</span> <input type="text" name="source"  style="background-color:gold">
+	   
+       <span style="font-size:20px;color:green">Journey Date: <input type="date" name="bday" style="background-color:gold"> 
+	   
+	          <input type="button" value="Search" style="height:30px; width:90px;cursor:pointer;background-color:green" onclick="search()">  <input type="button" value="cancel" style="height:30px; width:90px;cursor:pointer;background-color:red" onclick="back()">
+	   
+</pre>
+</form>
+
+
+
